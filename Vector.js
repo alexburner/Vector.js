@@ -50,7 +50,7 @@ Vector.setLength = function(vector, length) {
 };
 
 Vector.merge = function(vectorA, vectorB, action) {
-    // combine two vectors into a new vector,
+    // Combine two vectors into a new vector,
     // using the provided action function
     return new Vector(
         _.times(
