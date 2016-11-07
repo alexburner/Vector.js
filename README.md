@@ -1,6 +1,6 @@
 # Vector.js
 
-N-dimensional Vector class for JS using array tuples to hold scalars (vs something like vector.x, vector.y, vector.z)
+N-dimensional Vector class for JS using array tuples to hold scalars (`[1, 2, 3]` instead of `{x: 1, y: 2, z: 3}`)
 
 Written while following along with Daniel Shiffman's [The Nature of Code](http://natureofcode.com/)
 
