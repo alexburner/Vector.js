@@ -52,6 +52,7 @@ Vector.setLength = function(vector, length) {
 Vector.merge = function(vectorA, vectorB, action) {
     // Combine two vectors into a new vector,
     // using the provided action function
+    // on each pair of tuple scalars
     return new Vector(
         _.times(
             vectorA.tuple.length,
