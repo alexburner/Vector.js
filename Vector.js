@@ -99,8 +99,8 @@ _.each({
 
 //
 // Extend Vector prototype
-// with in-place proxies
-// for static Vector methods
+// with instance proxies
+// for static methods
 //
 
 //
